@@ -8,11 +8,7 @@ public class Bird : MonoBehaviour
     public GameObject Monster;
     public GameObject Fire;
     public float Speed;
-
-    private void RandomlyScatter()
-    {
-        
-    }
+   
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
